@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+      <div class="row" >
+        <div class="about-col" >
+          <h1>We are the world's largest University</h1>
+          <p>Welcome to ABC University, where excellence meets innovation in the pursuit of knowledge. Established with a commitment to academic brilliance and a holistic approach to education, we take pride in shaping the leaders of tomorrow.
+            Our distinguished faculty comprises seasoned educators, researchers, and industry experts dedicated to providing a transformative learning experience. We believe in nurturing not only academic prowess but also fostering a sense of responsibility, global awareness, and leadership skills.
+            At ABC University, our state-of-the-art facilities create an environment conducive to learning, research, and personal growth. From cutting-edge laboratories to collaborative spaces, we ensure that our students have the tools and resources they need to thrive.            
+            As a hub of diversity, we celebrate varied perspectives and cultures, fostering an inclusive community that prepares our students for a globalized world. Our commitment to innovation and forward-thinking education sets us apart, empowering our graduates to make a meaningful impact in their chosen fields.            
+            Join us on a journey of discovery, where every achievement is a testament to our dedication to excellence. At ABC University, the pursuit of knowledge is not just a goal; it's a way of life.</p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p> &copy; 2023 Educational Site. All rights reserved</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
